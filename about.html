@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Playmizx - About Us</title>
+    <style>
+        html {
+            height: 100%;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        .bg {
+            animation: slide 3s ease-in-out infinite alternate;
+            background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+            bottom: 0;
+            left: -50%;
+            opacity: .5;
+            position: fixed;
+            right: -50%;
+            top: 0;
+            z-index: -1;
+        }
+        
+        .bg2 {
+            animation-direction: alternate-reverse;
+            animation-duration: 4s;
+        }
+        
+        .bg3 {
+            animation-duration: 5s;
+        }
+
+        /* Content styling */
+        .content {
+            background-color: rgba(255, 255, 255, .8);
+            border-radius: .25em;
+            box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
+            box-sizing: border-box;
+            left: 50%;
+            padding: 10vmin;
+            position: fixed;
+            text-align: center;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            font-family: monospace;
+        }
+
+        /* Logo styling */
+        .logos {
+            margin-top: 50px; /* Adjust as needed */
+        }
+
+        .logos img {
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+            margin: 10px; /* Adjust spacing between logos */
+            border-radius: 50%; /* Make the logos oval */
+        }
+
+        .logos p {
+            font-size: 14px; /* Adjust font size as needed */
+            margin: 5px;
+        }
+
+        /* Team members styling */
+        .team {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px; /* Adjust as needed */
+        }
+
+        .team-member {
+            margin: 0 10px; /* Adjust spacing between team members */
+        }
+
+        .team-member img {
+            width: 100px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+            border-radius: 50%; /* Make the images oval */
+        }
+
+        .team-member h3,
+        .team-member p {
+            margin: 5px 0;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-25%);
+            }
+
+            100% {
+                transform: translateX(25%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="content">
+        <h1><b>ABOUT US:</b></h1>
+        <p><h3>Welcome to "Playmizx," the brainchild of a group of diploma students who share a passion for music. We've poured our hearts into creating this space just for you, where you can explore, connect, and discover the magic of music.</h3></p>
+
+        <!-- Other content... -->
+
+        <div class="team">
+            <div class="team-member">
+                <img src="https://i.pinimg.com/736x/6d/44/5a/6d445aa9c0f07e4cb2e9b084e5dc8876.jpg" alt="Team Member 1">
+                <h3>Samyak Shingnapure</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVdbmVJ17em10_4fNi-OpPg3MWW949ZgyJIim-Spnfcw&s" alt="Team Member 2">
+                <h3>Purva Shigane</h3>
+                <p>Designer</p>
+            </div>
+            <!-- Add more team members placeholders -->
+            <div class="team-member">
+                <img src="https://pm1.aminoapps.com/7820/4130ab273a3875a44a39a8477656b1065c271428r1-720-720v2_uhq.jpg" alt="Team Member 3">
+                <h3>Ojaswini Shirbhate</h3>
+                <p>Tester</p>
+            </div>
+            <div class="team-member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDMo6MQDhuMzXfXJ3bEvQ_kMQvJuhSAsVbtNIsrlA6w&s" alt="Team Member 4">
+                <h3>Shrutika Gawande</h3>
+                <p>Animator</p>
+            </div>
+            <div class="team-member">
+                <img src="https://wallpapers-clan.com/wp-content/uploads/2023/01/aesthetic-anime-girl-pfp-3.jpg" alt="Team Member 5">
+                <h3>Antara Sonar</h3>
+                <p>Supporter </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
